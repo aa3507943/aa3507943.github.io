@@ -11,7 +11,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
 <body>
-    <audio autoplay="true" loop="true">
+    <audio id="bgMusic" autoplay="true" loop="true">
       <source src="source/7.mp3" type="audio/mp3">
     </audio>
     <div class="container">
@@ -56,5 +56,12 @@
           <span class="sr-only">Next</span>
         </a>
       </div>
+      <script>
+        // 確保在 DOM 加載後執行
+        document.addEventListener("DOMContentLoaded", function() {
+            var audio = document.getElementById("bgMusic");
+            audio.volume = 0.5; // 音量調整，範圍是 0 到 1
+        });
+        </script>
 </body>
 </html>
