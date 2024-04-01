@@ -2,6 +2,8 @@
 "name": "AHHHHHHHHHHH",
 "short_name": "AHH",
 "start_url": "./?utm_source=web_app_manifest",
+"background_color": "#fff",
+"description": "A simply readable Hacker News app.",
 "display": "standalone",
 "icons": [
   {
@@ -31,7 +33,7 @@
   },
   {
     "src": "source/1238264.png",
-    "size": "1280x720",
+    "size": "512x512",
     "type": "image/png"
   }
 ]
