@@ -25,6 +25,11 @@
     "src": "source/favicon.png",
     "size": "512x512",
     "type": "image/png"
+  },
+  {
+    "src": "source/bird.png",
+    "size": "512x512",
+    "type": "image/png"
   }
 ]
 }
