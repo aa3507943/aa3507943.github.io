@@ -1,7 +1,7 @@
 {
 "name": "AHHHHHHHHHHH",
 "short_name": "AHH",
-"start_url": "/index.html",
+"start_url": "./?utm_source=web_app_manifest",
 "display": "standalone",
 "icons": [
   {
@@ -28,6 +28,11 @@
     "src": "source/favicon.png",
     "sizes": "300x300",
     "type": "image/png"
+  },
+  {
+    "src": "source/1238264.jpg",
+    "size": "1280x720",
+    "type": "image/jpg"
   }
 ]
 }
